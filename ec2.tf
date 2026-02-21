@@ -33,5 +33,6 @@ resource "aws_instance" "main" {
     Name        = var.instance_name
     Environment = var.environment
     CreatedBy   = "Alice"
+    ManagedBy   = "Harness"
   }
 }
