@@ -32,5 +32,6 @@ resource "aws_instance" "main" {
   tags = {
     Name        = var.instance_name
     Environment = var.environment
+    CreatedBy   = "Alice"
   }
 }
