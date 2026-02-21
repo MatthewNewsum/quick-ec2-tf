@@ -34,5 +34,6 @@ resource "aws_instance" "main" {
     Environment = var.environment
     CreatedBy   = "Alice"
     ManagedBy   = "Harness"
+    AppliedBy   = "Terraform"
   }
 }
