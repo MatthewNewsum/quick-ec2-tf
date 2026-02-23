@@ -42,6 +42,7 @@ resource "aws_instance" "main" {
     Date        = "23/2/2026"
     TimeZone    = "EST"
     JunkTag01   = "I just need to update this to force a run again"
+    JunkTag02   = "See JunkTag01"
 
   }
 }
