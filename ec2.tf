@@ -35,10 +35,10 @@ resource "aws_instance" "main" {
     CreatedBy   = "Alice"
     ManagedBy   = "Harness"
     AppliedBy   = "Terraform"
-    Date        = "2/23/2026"
     Intent      = "Testing"
     OSType      = "Amazon Linux"
     OSVersion   = "2023"
     OSKernel    = "Kernel 6"
+
   }
 }
