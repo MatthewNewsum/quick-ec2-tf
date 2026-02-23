@@ -37,6 +37,7 @@ resource "aws_instance" "main" {
     ManagedBy   = "Harness"
     AppliedBy   = "TerraForm"
     Date        = "2/23/2026"
+    Intent      = "Testing"
     
   }
 }
