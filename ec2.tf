@@ -36,7 +36,7 @@ resource "aws_instance" "main" {
     CreatedBy   = "Alice"
     ManagedBy   = "Harness"
     AppliedBy   = "TerraForm"
-    Date        = "23/2/2026"
+    Date        = "2/23/2026"
     
   }
 }
