@@ -38,6 +38,7 @@ resource "aws_instance" "main" {
     AppliedBy   = "TerraForm"
     Date        = "2/23/2026"
     Intent      = "Testing"
+    OSType      = "Amazon Linux"
     
   }
 }
