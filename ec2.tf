@@ -32,9 +32,11 @@ resource "aws_instance" "main" {
   tags = {
     Name        = var.instance_name
     Environment = var.environment
+    OwnedBy     = "Alice"
     CreatedBy   = "Alice"
     ManagedBy   = "Harness"
-    AppliedBy   = "Terraform"
+    AppliedBy   = "TerraForm"
+    Date        = "2/23/2026"
     Intent      = "Testing"
     OSType      = "Amazon Linux"
     OSVersion   = "2023"
