@@ -35,7 +35,7 @@ resource "aws_instance" "main" {
     OwnedBy     = "Alice"
     CreatedBy   = "Alice"
     ManagedBy   = "Harness"
-    AppliedBy   = "Terraform"
+    AppliedBy   = "TerraForm"
     
   }
 }
